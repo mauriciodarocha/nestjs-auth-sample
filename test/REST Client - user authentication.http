@@ -1,0 +1,14 @@
+### Install REST Client
+### https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+### login user
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "mauriciodarocha",
+    "password": "1234"
+}
+
+### get protected
+GET http://localhost:3000/protected

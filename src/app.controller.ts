@@ -7,7 +7,7 @@ export class AppController {
 
   @Post('login')
   login(): any {
-    return {}
+    return {};
   }
 
   @Get('protected')
